@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column;
   gap: 10px;
+  padding: 0 20px;
 }
 
 /* .input {
@@ -13,12 +14,17 @@
 
 .label {
   font-weight: bold;
+  margin-bottom: 5px;
+  display: block;
 }
 
-.field {
+.input {
   padding: 5px;
   border: 1px solid #ccc;
   border-radius: 5px;
+  display: block; 
+  margin-top: 5px;
+  width: 100%;
 }
 
 .error {
@@ -27,21 +33,19 @@
 }
 
 .button {
-  padding: 10px;
-  font-size: 16px;
+  padding: 8px;
+  font-size: 14px;
   border: none;
   border-radius: 5px;
   background-color: #007bff;
   color: white;
   border: none;
   cursor: pointer;
+  width: fit-content;
+  align-self: center;
 }
 
 .button:hover {
   background-color: #0056b3;
 }
 
-/* .error {
-  color: red;
-  font-size: 12px;
-} */

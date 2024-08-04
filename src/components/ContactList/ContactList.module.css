@@ -28,11 +28,60 @@
     cursor: pointer;
   } */
    
+  /* .contactList {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  } */
+
+  /* .list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-left: 20px; 
+  } */
+
   .contactList {
     display: flex;
     flex-direction: column;
     gap: 10px;
   }
+  
+  .contactItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .contactName {
+    font-weight: bold;
+  }
+  
+  .contactNumber {
+    /* margin-left: 10px; */
+  }
+  
+  .deleteButton {
+    padding: 5px 10px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .deleteButton:hover {
+    background-color: darkred;
+  }
+  
+  
   
 
   
