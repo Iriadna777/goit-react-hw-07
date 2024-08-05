@@ -5,6 +5,8 @@
 
 .label {
   font-weight: bold;
+  display: flex;
+  flex-direction: column;
 }
 
 .input {
@@ -13,5 +15,6 @@
   font-size: 16px;
   border: 1px solid #ccc;
   border-radius: 5px;
+  margin-top: 5px;
 }
 

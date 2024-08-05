@@ -50,7 +50,7 @@
     gap: 10px;
   }
   
-  .contactItem {
+  .contact {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -59,13 +59,20 @@
     border-radius: 5px;
   }
   
-  .contactName {
+  /* .contactName {
     font-weight: bold;
   }
   
   .contactNumber {
-    /* margin-left: 10px; */
-  }
+    margin-left: 10px;
+  } */
+
+  .contactName,
+.contactNumber {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
   
   .deleteButton {
     padding: 5px 10px;
