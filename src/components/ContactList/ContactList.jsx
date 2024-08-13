@@ -7,17 +7,18 @@ import { selectVisibleContacts } from '../../redux/selectors';
 import styles from './ContactList.module.css';
 
 const ContactList = () => {
+  const contacts = useSelector(selectVisibleContacts);
+  
   // const contacts = useSelector(selectContacts);
   // const filter = useSelector(selectNameFilter);
-  const contacts = useSelector(selectVisibleContacts);
- 
+  
   // const filteredContacts = contacts.filter((contact) =>
   //   contact.name.toLowerCase().includes(filter.toLowerCase())
   // );
 
   return (
     <div className={styles.contactList}>
-      {contacts.map(contact => (
+      {contacts.map((contact) => (
         <Contact key={contact.id} contact={contact} />
       ))}
     </div>
